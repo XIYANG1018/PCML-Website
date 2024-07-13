@@ -12,6 +12,7 @@ import project5_1 from '../../assets/project5_1.png'
 import project4 from '../../assets/project4.png'
 import project4_1 from '../../assets/project4_1.png'
 import white_arrow from '../../assets/white-arrow.png'
+import { Link, Navigate } from 'react-router-dom'
 
 
 const Testimonials = () => {
@@ -37,9 +38,16 @@ const slideBackward = ()=>{
     slider.current.style.transform = `translateX(${tx}%)`; // 更新 slider 的位置
 }
 
+const handleOnClick = (path) => {
+    Navigate(path);
+}
+
   return (
     <div className='testimonials'>
-        <button className='btn dark-btn'>其他文章发表 <img src={white_arrow} alt="" /></button>
+        <Link to='/publication' onClick={handleOnClick('/publication')}>
+            <button className='btn dark-btn'>其他文章发表 <img src={white_arrow} alt="" /></button>
+        </Link>
+        
       <img src={next_icon} alt="" className='next-btn' onClick={slideForward}/>
       <img src={back_icon} alt="" className='back-btn' onClick={slideBackward}/>
       <div className="slider">

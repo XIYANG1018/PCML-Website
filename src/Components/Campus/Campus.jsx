@@ -5,11 +5,20 @@ import hero from '../../assets/hero.jpg'
 import gallery_2 from '../../assets/gallery-2.png'
 import gallery_3 from '../../assets/gallery-3.png'
 import white_arrow from '../../assets/white-arrow.png'
+import { Link, Navigate } from 'react-router-dom'
 
 const Campus = () => {
+
+  const handleOnClick = (path) => {
+    Navigate(path);
+  }
+  
   return (
     <div className='campus'>
+      <Link to='/team' onClick={handleOnClick('/team')}>
       <button className='btn dark-btn'>了解更多 <img src={white_arrow} alt="" /></button>
+      </Link>
+      
       <div className="row">
 
         <div className='gallery'>

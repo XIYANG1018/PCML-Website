@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
 
-import './Navbar.css'
+import './NavbarStatic.css'
 import logo from '../../assets/logoNav.png'
 import menu_icon from '../../assets/menu-icon.png'
 import { Link as ScrollLink} from 'react-scroll';
 import { Link, Navigate } from 'react-router-dom';
 
 
-const Navbar = () => {
+const NavbarStatic = () => {
 
     const [sticky, setSticky] = useState(false);
 
@@ -30,11 +30,12 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${sticky? 'dark-nav' : ''}`}>
-      <ScrollLink to='hero' smooth={true} offset={0} duration={500}><img src={logo} alt="" className='logo' /></ScrollLink>
-      
+      <Link to='/' onClick={handleOnClick('/')}>
+        <img src={logo} alt="" className='logo' />
+      </Link>
       
       <ul className={mobileMenu? '':'hide-mobile-menu'}>
-        
+        <li><ScrollLink to='hero' smooth={true} offset={0} duration={500}>首页</ScrollLink></li>
         <li><ScrollLink to='about' smooth={true} offset={0} duration={500}>关于我们</ScrollLink></li>
         <li><ScrollLink to='testimonials' smooth={true} offset={-260} duration={500}>科研成果</ScrollLink></li>
         <li><Link to='/publication' onClick={handleOnClick('/publication')}>研究发表</Link></li>
@@ -46,4 +47,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default NavbarStatic

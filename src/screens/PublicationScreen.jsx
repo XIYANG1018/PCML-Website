@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar/Navbar'
 import './PublicationScreen.css'
 import Title from '../Components/Title/Title'
+import { FaCalendarCheck } from 'react-icons/fa'
 
 const PublicationScreen = () => {
   return (
@@ -10,13 +11,13 @@ const PublicationScreen = () => {
 
         <div className='publication-container'>
         <Title subTitle='Our publication' title='文章发表'/>
-          <h2>2024</h2>
+          <h2><FaCalendarCheck className='icon' /> 2024</h2>
           <hr></hr>
           <br></br>
           
 
 
-          <h2>2023</h2>
+          <h2><FaCalendarCheck className='icon' /> 2023</h2>
           <hr></hr>
           <br></br>
 
@@ -26,7 +27,7 @@ const PublicationScreen = () => {
           <p>4.Li W.L., Lou W.T., Zhang W.Y., Tong, R. K. Y., Jin R.C., Peng W.W.# (2023). Gyrus rectus asymmetry predicts trait alexithymia, cognitive empathy, and social function in neurotypical adults. Cerebral Cortex bhac184. (5-year-IF = 6.00; SCI -JCR-Q2)</p>
           <p>5.张文芸, 卓诗维, 郑倩倩, 关颖琳, 彭微微#. (2023). 自闭特质对疼痛共情的影响：疼痛负性情绪和认知的中介作用. 心理学报, 已录用</p>
 
-          <h2>2022</h2>
+          <h2><FaCalendarCheck className='icon' /> 2022</h2>
           <hr></hr>
           <br></br>
           <p>6.Li X.Y., Lou W.T., Zhang W.Y., Tong R. K. Y., Hu L., Peng W.W.# (2022). Ongoing first-hand pain facilitates somatosensory resonance but inhibits affective sharing in empathy for pain. NeuroImage, 119599. (5-year-IF = 8.01; SCI -JCR-Q1)</p>
@@ -37,7 +38,7 @@ const PublicationScreen = () => {
 
 
 
-          <h2>2021</h2>
+          <h2><FaCalendarCheck className='icon' /> 2021</h2>
           <hr></hr>
           <br></br>
           <p>11.Peng W.W, Lou, W.T., Huang, X.X., Ye, Q.., Tong, R. K. Y., & Cui, F. (2021). Suffer together, bond together: brain-to-brain synchronization and mutual affective empathy when sharing painful experiences. NeuroImage 238, 118249. (5-year-IF = 8.01; SCI -JCR-Q1)</p>
@@ -48,7 +49,7 @@ const PublicationScreen = () => {
 
 
 
-          <h2>2020</h2>
+          <h2><FaCalendarCheck className='icon' /> 2020</h2>
           <hr></hr>
           <br></br>
           <p>16.Yao M.L., Lei Y., Li P., Ye Q., Liu Y., Li X.Y., Peng W.W.# (2020) Shared sensitivity to physical pain and social evaluation. The Journal of Pain 21 (5-6): 677-688. (5-year-IF = 7.04; SCI -JCR-Q1) </p>
@@ -63,7 +64,7 @@ const PublicationScreen = () => {
 
 
 
-          <h2>2019</h2>
+          <h2><FaCalendarCheck className='icon' /> 2019</h2>
           <hr></hr>
           <br></br>
           <p>23.Peng W.W.*, Tang Z.Y.*, Zhang F.R., Li H., Kong Y.Z., Iannetti G.D., Hu L. (2019) Neurobiological mechanisms of TENS-induced analgesia. NeuroImage 195: 396-408. (5-year-IF = 8.01; SCI -JCR-Q1)</p>
@@ -87,13 +88,13 @@ const PublicationScreen = () => {
 
 
 
-          <h2>2018</h2>
+          <h2><FaCalendarCheck className='icon' /> 2018</h2>
           <hr></hr>
           <br></br>
           <p>32.Peng W.W.*, Xia X.L.*, Yi M., Huang, G. Zhang Z.G., Iannetti G.D., Hu L. (2018) Brain oscillations reflecting pain-related behavior in freely-moving rats. PAIN 159(1): 106–118. (5-year-IF = 8.09; SCI -JCR-Q1)</p>
           <p>33.张会娟, 彭微微#, 周丽丽, 吕雪靖, 魏华, 胡理# (2018) 安慰剂效应的心理机制及临床应用, 中国临床心理学杂志 26(3),467-471,453. </p>
           
-          <h2>2017</h2>
+          <h2><FaCalendarCheck className='icon' /> 2017</h2>
           <hr></hr>
           <br></br>
 
@@ -102,7 +103,7 @@ const PublicationScreen = () => {
           <p>36.王小玲, 唐丹丹, 靳晴晴, 彭微微#, 胡理 (2017) 疼痛恐惧的神经机制及其消退. 心理科学进展 25(10): 1758-1768.</p>
           <p>37.汤征宇, 汪汇泉, 夏晓磊, 汤艺, 彭微微#, 胡理 (2017) 经皮神经电刺激的镇痛机制及其临床应用. 生理学报 2017(3):1-22.</p>
 
-          <h2>2012-2016</h2>
+          <h2><FaCalendarCheck className='icon' /> 2012-2016</h2>
           
           <hr></hr>
           <br></br>

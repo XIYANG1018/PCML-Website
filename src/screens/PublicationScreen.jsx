@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import './PublicationScreen.css'
 import Title from '../Components/Title/Title'
 import { FaCalendarCheck } from 'react-icons/fa'
+import Footer from '../Components/Footer/Footer'
 
 const PublicationScreen = () => {
   return (
@@ -118,6 +119,8 @@ const PublicationScreen = () => {
           <p>45.Hu L.*, Peng W.W.*, Valentini E., Hu Y. (2013) Functional features of nociceptive-induced suppression of alpha band electroencephalographic oscillations. The Journal of Pain 14:89-99. (5-year-IF =7.04; SCI/-JCR-Q1)</p>
           <p>46.Peng W.W.*, Hu L.*, Zhang Z.G., Hu Y. (2012) Causality in the association between P300 and alpha event-related desynchronization. Plos One 7: e34163. (5-year-IF =4.07; SCI -JCR-Q1) </p>
         </div>
+
+        <Footer />
     </div>
   )
 }

@@ -23,8 +23,16 @@ const NavbarStatic = () => {
       mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
     }
 
-    const handleOnClick = (path) => {
+    const handleOnClick = (path, component) => {
       Navigate(path);
+      setTimeout(() => {
+        // 等待一段时间后执行滚动操作
+        ScrollLink.scrollTo(component, {
+          smooth: true,
+          offset: 0,
+          duration: 500
+        });
+      }, 50); 
     };
 
 
@@ -35,12 +43,11 @@ const NavbarStatic = () => {
       </Link>
       
       <ul className={mobileMenu? '':'hide-mobile-menu'}>
-        <li><ScrollLink to='hero' smooth={true} offset={0} duration={500}>首页</ScrollLink></li>
-        <li><ScrollLink to='about' smooth={true} offset={0} duration={500}>关于我们</ScrollLink></li>
-        <li><ScrollLink to='testimonials' smooth={true} offset={-260} duration={500}>科研成果</ScrollLink></li>
+        <li><Link to='/' onClick={handleOnClick('/', 'about')}>关于我们</Link></li>
+        <li><Link to='/' onClick={handleOnClick('/', 'testimonials')}>科研成果</Link></li>
         <li><Link to='/publication' onClick={handleOnClick('/publication')}>研究发表</Link></li>
-        <li><ScrollLink to='campus' smooth={true} offset={-260} duration={500}>团队成员</ScrollLink></li>
-        <li><ScrollLink to='contact' smooth={true} offset={-260} duration={500} className='btn'>联系合作</ScrollLink></li>
+        <li><Link to='/team' onClick={handleOnClick('/', 'campus')}>团队成员</Link></li>
+        <li><Link to='/' onClick={handleOnClick('/', 'contact')}>联系合作</Link></li>
       </ul>
       <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>

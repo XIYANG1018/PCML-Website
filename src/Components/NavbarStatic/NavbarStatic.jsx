@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './Navbar.css'
+import './NavbarStatic.css'
 import logo from '../../assets/logoNav.png'
 import menu_icon from '../../assets/menu-icon.png'
 import { Link as ScrollLink} from 'react-scroll';

@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import about_img from '../../assets/logo.png'
 
-const About = ({setPlayState}) => {
+const About = () => {
   return (
     <div className='about'>
       <div className="about-left">

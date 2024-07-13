@@ -1,8 +1,6 @@
 import React from 'react'
 import './index.css'
-import TeamScreen from './screens/TeamScreen.jsx'
-import HomeScreen from './screens/HomeScreen.jsx'
-import PublicationScreen from './screens/PublicationScreen.jsx'
+
 import ReactDOM from 'react-dom/client';
 import {
   createBrowserRouter,
@@ -16,6 +14,11 @@ import AboutScreen from './screens/AboutScreen.jsx'
 import ContactScreen from './screens/ContactScreen.jsx'
 import ResearchScreen from './screens/ResearchScreen.jsx'
 import LeaderScreen from './screens/LeaderScreen.jsx'
+
+import TeamScreen from './screens/TeamScreen.jsx'
+import HomeScreen from './screens/HomeScreen.jsx'
+import PublicationScreen from './screens/PublicationScreen.jsx'
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(

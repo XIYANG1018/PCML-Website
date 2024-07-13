@@ -207,11 +207,7 @@ const TeamScreen = () => {
               <h3>付金龙</h3>
               <p>硕士研究生</p>
             </div>
-            <div className='member'>
-              <img src={people17} alt="" className='member-img'/>
-              <h3>付金龙</h3>
-              <p>硕士研究生</p>
-            </div>
+
           </div>
         </div>
 

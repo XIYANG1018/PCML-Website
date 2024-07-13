@@ -44,9 +44,7 @@ const handleOnClick = (path) => {
 
   return (
     <div className='testimonials'>
-        <Link to='/publication' onClick={handleOnClick('/publication')}>
-            <button className='btn dark-btn'>其他文章发表 <img src={white_arrow} alt="" /></button>
-        </Link>
+        
         
       <img src={next_icon} alt="" className='next-btn' onClick={slideForward}/>
       <img src={back_icon} alt="" className='back-btn' onClick={slideBackward}/>
@@ -131,6 +129,10 @@ const handleOnClick = (path) => {
             </li>
         </ul>
       </div>
+
+      <Link to='/publication' onClick={handleOnClick('/publication')}>
+            <button className='btn dark-btn'>其他文章发表 <img src={white_arrow} alt="" /></button>
+        </Link>
     </div>
   )
 }

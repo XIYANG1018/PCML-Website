@@ -1,5 +1,4 @@
 import React from 'react'
-import NavbarStatic from '../Components/NavbarStatic/NavbarStatic'
 import people1 from '../assets/people1.jpg'
 import peopleSample from '../assets/people-sample.jpg'
 import people2 from '../assets/2.jpg'
@@ -13,16 +12,26 @@ import people9 from '../assets/9.jpg'
 import people10 from '../assets/10.jpg'
 import people11 from '../assets/11.jpg'
 import people12 from '../assets/12.jpg'
+import people13 from '../assets/13.jpg'
+import people14 from '../assets/14.jpg'
+import people15 from '../assets/15.jpg'
+import people16 from '../assets/16.jpg'
+import people17 from '../assets/17.jpg'
+
 import './TeamScreen.css'
 import white_arrow from '../assets/white-arrow.png'
 import { FaEnvelope, FaIdBadge} from 'react-icons/fa'
 import Title from '../Components/Title/Title'
+import Navbar from '../Components/Navbar/Navbar'
+import Footer from '../Components/Footer/Footer'
 
 
 const TeamScreen = () => {
   return (
-    <>
-        <NavbarStatic />
+  
+    <div className='page'>
+
+    <Navbar />
         <div className='leader'>
           <div className="leader-right">
 
@@ -88,27 +97,123 @@ const TeamScreen = () => {
         <Title subTitle='team members' title='团队成员'/>
         <div className='members-container'>
           <div className='members'>
+            <div className='member'>
+              <img src={peopleSample} alt="" className='member-img'/>
+              <h3>翁玲玲</h3>
+              <p>博士后</p>
+            </div>
+            <div className='member'>
+              <img src={people2} alt="" className='member-img'/>
+              <h3>张银花</h3>
+              <p>博士研究生</p>
+            </div>
+            <div className='member'>
+              <img src={people3} alt="" className='member-img'/>
+              <h3>李嘉</h3>
+              <p>硕士研究生</p>
+            </div>
+
+            <div className='member'>
+              <img src={people4} alt="" className='member-img'/>
+              <h3>林鑫鑫</h3>
+              <p>硕士研究生</p>
+            </div>
+
+            <div className='member'>
+              <img src={people5} alt="" className='member-img'/>
+              <h3>卓诗维</h3>
+              <p>硕士研究生</p>
+            </div>
+
+            <div className='member'>
+              <img src={people6} alt="" className='member-img'/>
+              <h3>范俊淞
+              </h3>
+              <p>硕士研究生</p>
+            </div>
+
+            <div className='member'>
+              <img src={people7} alt="" className='member-img'/>
+              <h3>吕笑寒</h3>
+              <p>硕士研究生</p>
+            </div>
+
+            <div className='member'>
+              <img src={people8} alt="" className='member-img'/>
+              <h3>刘周安</h3>
+              <p>硕士研究生</p>
+            </div>
+
+            <div className='member'>
+              <img src={people9} alt="" className='member-img'/>
+              <h3>金云馨</h3>
+              <p>硕士研究生</p>
+            </div>
+
+            
+            <div className='member'>
+              <img src={people10} alt="" className='member-img'/>
+              <h3>郑倩倩</h3>
+              <p>硕士研究生</p>
+            </div>
+
+            <div className='member'>
+              <img src={people11} alt="" className='member-img'/>
+              <h3>郭泽昆</h3>
+              <p>硕士研究生</p>
+            </div>
+
+            <div className='member'>
+              <img src={people12} alt="" className='member-img'/>
+              <h3>林臣南</h3>
+              <p>硕士研究生</p>
+            </div>
+
+            <div className='member'>
+              <img src={people12} alt="" className='member-img'/>
+              <h3>章文婷</h3>
+              <p>硕士研究生</p>
+            </div>
 
 
-            <img src={people2} alt="" className='member-img'/>
-            <img src={people3} alt="" className='member-img'/>
-            <img src={people4} alt="" className='member-img'/>
-            <img src={people5} alt="" className='member-img'/>
-            <img src={people6} alt="" className='member-img'/>
-            <img src={people7} alt="" className='member-img'/>
-            <img src={people8} alt="" className='member-img'/>
-            <img src={people9} alt="" className='member-img'/>
-            <img src={people10} alt="" className='member-img'/>
-            <img src={people11} alt="" className='member-img'/>
-            <img src={people12} alt="" className='member-img'/>
+            <div className='member'>
+              <img src={people14} alt="" className='member-img'/>
+              <h3>吴奇奇</h3>
+              <p>硕士研究生</p>
+            </div>
+
+
+            <div className='member'>
+              <img src={people15} alt="" className='member-img'/>
+              <h3>胡玉祯</h3>
+              <p>硕士研究生</p>
+            </div>
+
+            <div className='member'>
+              <img src={people16} alt="" className='member-img'/>
+              <h3>关颖琳</h3>
+              <p>硕士研究生</p>
+            </div>
+
+            <div className='member'>
+              <img src={people17} alt="" className='member-img'/>
+              <h3>付金龙</h3>
+              <p>硕士研究生</p>
+            </div>
           </div>
         </div>
+
+        <Footer />
+
+
+    </div>
+       
         
 
 
       
 
-    </>
+  
   )
 }
 

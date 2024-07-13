@@ -14,7 +14,7 @@ const HomeScreen = () => {
     <div>
      <Navbar/>
      <Hero/>
-     <div className="container">
+     {/* <div className="container">
       
       <About/>
         <Title subTitle='Our research' title='科研成果'/>
@@ -24,9 +24,9 @@ const HomeScreen = () => {
         <Campus/>
 
         <Title subTitle='Contact Us' title='联系合作'/>
-        <Contact/>
-        <Footer/>
-     </div>
+        <Contact/> */}
+      {/* <Footer/> */}
+     {/* </div> */}
     </div>
   )
 }

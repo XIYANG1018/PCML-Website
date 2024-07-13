@@ -15,6 +15,7 @@ import App from './App';
 import AboutScreen from './screens/AboutScreen.jsx'
 import ContactScreen from './screens/ContactScreen.jsx'
 import ResearchScreen from './screens/ResearchScreen.jsx'
+import LeaderScreen from './screens/LeaderScreen.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path='/publication' element={<PublicationScreen />} />
       <Route path='/team' element={<TeamScreen />} />
       <Route path='/contact' element={<ContactScreen />} />
+      <Route path='/weiweipeng' element={<LeaderScreen />} />
     </Route>
     
   )

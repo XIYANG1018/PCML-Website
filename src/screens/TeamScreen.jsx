@@ -25,8 +25,15 @@ import Title from '../Components/Title/Title'
 import Navbar from '../Components/Navbar/Navbar'
 import Footer from '../Components/Footer/Footer'
 
+import { Link, Navigate } from 'react-router-dom'
+
 
 const TeamScreen = () => {
+
+  const handleOnClick = (path) => {
+    Navigate(path);
+  }
+
   return (
   
     <div className='page'>
@@ -42,7 +49,7 @@ const TeamScreen = () => {
             <p>
             <FaEnvelope className='icon'/> www.peng0923@gmail.com
             </p>
-            <button className='btn dark-btn'>了解更多 <img src={white_arrow} alt="" /></button>
+            <Link to='/weiweipeng' onClick={handleOnClick('/weiweipeng')} className='btn dark-btn'>了解更多 <img src={white_arrow} alt="" /></Link>
           </div>
           <div className="leader-left">
             <h2>彭微微</h2>
@@ -170,7 +177,7 @@ const TeamScreen = () => {
             </div>
 
             <div className='member'>
-              <img src={people12} alt="" className='member-img'/>
+              <img src={people13} alt="" className='member-img'/>
               <h3>章文婷</h3>
               <p>硕士研究生</p>
             </div>
@@ -195,6 +202,11 @@ const TeamScreen = () => {
               <p>硕士研究生</p>
             </div>
 
+            <div className='member'>
+              <img src={people17} alt="" className='member-img'/>
+              <h3>付金龙</h3>
+              <p>硕士研究生</p>
+            </div>
             <div className='member'>
               <img src={people17} alt="" className='member-img'/>
               <h3>付金龙</h3>

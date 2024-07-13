@@ -254,6 +254,9 @@ const LeaderScreen = () => {
             <p><FaArrowCircleRight className='icon'/>国家自然科学基金评审专家</p>
             <p><FaArrowCircleRight className='icon'/>Frontiers in Molecular Neuroscience、International Journal of Environmental Research and Public Health等期刊客座编辑</p>
             <p><FaArrowCircleRight className='icon'/>Current Biology、Human Brain Mapping和中国科学等多个学术期刊审稿人</p>
+
+            <br></br>
+            <br></br>
           </div>
 
           

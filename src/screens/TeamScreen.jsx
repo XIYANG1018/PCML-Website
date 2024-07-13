@@ -1,10 +1,10 @@
 import React from 'react'
-import NavbarStatic from '../Components/NavbarStatic/NavbarStatic'
+import Navbar from '../Components/Navbar/Navbar'
 
 const TeamScreen = () => {
   return (
     <>
-        <NavbarStatic />
+        <Navbar />
     </>
   )
 }

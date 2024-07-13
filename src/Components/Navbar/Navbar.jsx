@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+
 import './Navbar.css'
 import logo from '../../assets/logoNav.png'
 import menu_icon from '../../assets/menu-icon.png'
@@ -22,22 +23,22 @@ const Navbar = () => {
       mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
     }
 
-    const handleOnClick = ()=>{
-      Navigate('/publication');
-    }
+    const handleOnClick = (path) => {
+      Navigate(path);
+    };
 
 
   return (
     <nav className={`container ${sticky? 'dark-nav' : ''}`}>
-      <ScrollLink to='hero' spy={true} smooth={true} offset={50} duration={500} >
+      <Link onClick={handleOnClick('/')}>
         <img src={logo} alt="" className='logo' />
-      </ScrollLink>
+      </Link>
       
-      <ul className={mobileMenu?'':'hide-mobile-menu'}>
+      <ul className={mobileMenu? '':'hide-mobile-menu'}>
         <li><ScrollLink to='hero' smooth={true} offset={0} duration={500}>首页</ScrollLink></li>
         <li><ScrollLink to='about' smooth={true} offset={0} duration={500}>关于我们</ScrollLink></li>
         <li><ScrollLink to='testimonials' smooth={true} offset={-260} duration={500}>科研成果</ScrollLink></li>
-        <li><Link to='/publication' onClick={handleOnClick}>研究发表</Link></li>
+        <li><Link to='/publication' onClick={handleOnClick('/publication')}>研究发表</Link></li>
         <li><ScrollLink to='campus' smooth={true} offset={-260} duration={500}>团队成员</ScrollLink></li>
         <li><ScrollLink to='contact' smooth={true} offset={-260} duration={500} className='btn'>联系合作</ScrollLink></li>
       </ul>

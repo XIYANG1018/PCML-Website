@@ -16,16 +16,6 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <nav>
-        <ul>
-          <li>
-            <Link to="/"></Link>
-          </li>
-          <li>
-            <Link to="/team"></Link>
-          </li>
-        </ul>
-      </nav>
       <Outlet />
     </div>
   )

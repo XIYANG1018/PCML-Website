@@ -1,19 +1,21 @@
 .about{
-    margin: 200px auto;
+    margin: 60px auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 90%;
 }
 .about-left{
-    flex-basis: 68%;
+    flex-basis: 100%;
     position: relative;
 }
 .about-right{
-    flex-basis: 32%;
+    flex-basis: 100%;
 }
-.about-img{
-    width: 70%;
+.about img{
+    width: 50%;
+    padding: 80px;
     border-radius: 10px;
 }
 .play-icon{
@@ -48,9 +50,10 @@
         justify-content: center;
     }
 
-    .about-img {
+    .about img {
         width: 100%;
         padding: 30px;
+        margin: 70px;
     }
     .about-left{
         flex-basis: 100%;

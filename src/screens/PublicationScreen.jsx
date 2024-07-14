@@ -12,9 +12,7 @@ const PublicationScreen = () => {
 
         <div className='publication-container'>
         <Title subTitle='Our publication' title='文章发表'/>
-          <h2><FaCalendarCheck className='icon' /> 2024</h2>
-          <hr></hr>
-          <br></br>
+
           
 
 

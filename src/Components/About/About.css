@@ -61,4 +61,8 @@
         flex-basis: 100%;
     }
 
+    .about h2 {
+        font-size: 30px;
+    }
+
 }

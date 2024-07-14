@@ -6,8 +6,8 @@ import { FaArrowRight } from 'react-icons/fa'
 const About = () => {
   return (
     <div className='about'>
+      <img src={about_img} alt="" className='about-img'/>
       <div className="about-right">
-        <img src={about_img} alt="" className='about-img'/>
         
       </div>
       <div className="about-left">

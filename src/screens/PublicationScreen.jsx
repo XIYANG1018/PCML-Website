@@ -69,14 +69,14 @@ const PublicationScreen = () => {
           <hr></hr>
           <br></br>
           <p>23.Peng W.W.*, Tang Z.Y.*, Zhang F.R., Li H., Kong Y.Z., Iannetti G.D., Hu L. (2019) Neurobiological mechanisms of TENS-induced analgesia. NeuroImage 195: 396-408. (5-year-IF = 8.01; SCI -JCR-Q1) <a href='https://www.sciencedirect.com/science/article/pii/S1053811919302848?via%3Dihub'> <FaLink className='icon' /></a></p>
-          <p>24.Peng W.W., Huang X.X., Liu Y., Cui F. (2019) Predictability modulates the anticipation and perception of pain in both self and others. Social Cognitive and Affective Neuroscience 14(7):747-757. (5-year-IF = 5.20; SCI/SSCI-JCR-Q1) <a href=''> <FaLink className='icon' /></a></p>
-          <p>25.Liu Y., Meng J., Yao M.L., Ye Q., Fan B., Peng W.W.# (2019) Hearing other's pain is associated with sensitivity to physical pain: an ERP study. Biological Psychology 145:150-158. (5-year-IF = 3.97，SSCI -JCR-Q1) <a href=''> <FaLink className='icon' /></a></p>
-          <p>26.Meng J., Shen L., Li Z.S., Peng W.W.# (2019) Top-down Effects on Empathy for Pain in Adults with Autistic Traits. Scientific Reports 9:8022. (5-year-IF = 5.52,SCI-JCR-Q1) <a href=''> <FaLink className='icon' /></a></p>
-          <p>27.Peng W.W., Peng H.N., Lu J.Z., Fan B., Cui F. (2019) Others’ pain appraisals modulate the anticipation and experience of subsequent pain. Neuroscience 410:16-28. (5-year-IF =3.92; SCI -JCR-Q2) <a href=''> <FaLink className='icon' /></a></p>
-          <p>28.Meng J., Shen L., Li Z.S., Peng W.W.# (2019) Top-down attention modulation on the perception of others' vocal pain: An event-related potential study. Neuropsychologia 133:107177. (5-year-IF = 3.56; SCI/SSCI -JCR-Q2) <a href=''> <FaLink className='icon' /></a></p>
-          <p>29.Ye Q., Yan D., Yao M.L., Lou W.T.#, Peng W.W.# (2019) Hyperexcitability of cortical oscillations in patients with somatoform pain disorder: A resting state EEG study. Neural Plasticity 2687150. (5-year-IF = 4.65; SCI -JCR-Q2) <a href=''> <FaLink className='icon' /></a></p>
-          <p>30.Peng W.W.*, Meng J.*, Lou Y.X., Li X.Y., Lei Y., Yan D. (2019) Reduced empathic pain processing in patients with somatoform pain disorder: evidence from behavioral and neurophysiological measures. International Journal of Psychophysiology 139:40-47. (5-year-IF = 3.52，SCI/SSCI-JCR-Q2) <a href=''> <FaLink className='icon' /></a></p>
-          <p>31.Qiu F*, Peng W.W.*, Li M.M*, Zhang L.L., Zhu H., Tan, X.Y, Li H., Zhang, J (2019) Effects of physical exercise on negative emotional susceptibility in young adult females: An event-related potential study. Brain research 1722: 146382. (5-year-IF = 3.68 SCI-JCR-Q3) <a href=''> <FaLink className='icon' /></a></p>
+          <p>24.Peng W.W., Huang X.X., Liu Y., Cui F. (2019) Predictability modulates the anticipation and perception of pain in both self and others. Social Cognitive and Affective Neuroscience 14(7):747-757. (5-year-IF = 5.20; SCI/SSCI-JCR-Q1) <a href='https://academic.oup.com/scan/article/14/7/747/5522657?login=false'> <FaLink className='icon' /></a></p>
+          <p>25.Liu Y., Meng J., Yao M.L., Ye Q., Fan B., Peng W.W.# (2019) Hearing other's pain is associated with sensitivity to physical pain: an ERP study. Biological Psychology 145:150-158. (5-year-IF = 3.97，SSCI -JCR-Q1) <a href='https://www.sciencedirect.com/science/article/abs/pii/S0301051118308342?via%3Dihub'> <FaLink className='icon' /></a></p>
+          <p>26.Meng J., Shen L., Li Z.S., Peng W.W.# (2019) Top-down Effects on Empathy for Pain in Adults with Autistic Traits. Scientific Reports 9:8022. (5-year-IF = 5.52,SCI-JCR-Q1) <a href='https://www.nature.com/articles/s41598-019-44400-2'> <FaLink className='icon' /></a></p>
+          <p>27.Peng W.W., Peng H.N., Lu J.Z., Fan B., Cui F. (2019) Others’ pain appraisals modulate the anticipation and experience of subsequent pain. Neuroscience 410:16-28. (5-year-IF =3.92; SCI -JCR-Q2) <a href='https://www.ibroneuroscience.org/article/S0306-4522(19)30313-6/abstract'> <FaLink className='icon' /></a></p>
+          <p>28.Meng J., Shen L., Li Z.S., Peng W.W.# (2019) Top-down attention modulation on the perception of others' vocal pain: An event-related potential study. Neuropsychologia 133:107177. (5-year-IF = 3.56; SCI/SSCI -JCR-Q2) <a href='https://www.sciencedirect.com/science/article/abs/pii/S0028393219302234?via%3Dihub'> <FaLink className='icon' /></a></p>
+          <p>29.Ye Q., Yan D., Yao M.L., Lou W.T.#, Peng W.W.# (2019) Hyperexcitability of cortical oscillations in patients with somatoform pain disorder: A resting state EEG study. Neural Plasticity 2687150. (5-year-IF = 4.65; SCI -JCR-Q2) <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6652032/'> <FaLink className='icon' /></a></p>
+          <p>30.Peng W.W.*, Meng J.*, Lou Y.X., Li X.Y., Lei Y., Yan D. (2019) Reduced empathic pain processing in patients with somatoform pain disorder: evidence from behavioral and neurophysiological measures. International Journal of Psychophysiology 139:40-47. (5-year-IF = 3.52，SCI/SSCI-JCR-Q2) <a href='https://www.sciencedirect.com/science/article/abs/pii/S0167876018309887?via%3Dihub'> <FaLink className='icon' /></a></p>
+          <p>31.Qiu F*, Peng W.W.*, Li M.M*, Zhang L.L., Zhu H., Tan, X.Y, Li H., Zhang, J (2019) Effects of physical exercise on negative emotional susceptibility in young adult females: An event-related potential study. Brain research 1722: 146382. (5-year-IF = 3.68 SCI-JCR-Q3) <a href='https://www.sciencedirect.com/science/article/abs/pii/S0006899319304366'> <FaLink className='icon' /></a></p>
 
 
 
@@ -92,32 +92,32 @@ const PublicationScreen = () => {
           <h2><FaCalendarCheck className='icon' /> 2018</h2>
           <hr></hr>
           <br></br>
-          <p>32.Peng W.W.*, Xia X.L.*, Yi M., Huang, G. Zhang Z.G., Iannetti G.D., Hu L. (2018) Brain oscillations reflecting pain-related behavior in freely-moving rats. PAIN 159(1): 106–118. (5-year-IF = 8.09; SCI -JCR-Q1) <a href=''> <FaLink className='icon' /></a></p>
-          <p>33.张会娟, 彭微微#, 周丽丽, 吕雪靖, 魏华, 胡理# (2018) 安慰剂效应的心理机制及临床应用, 中国临床心理学杂志 26(3),467-471,453. <a href=''> <FaLink className='icon' /></a></p>
+          <p>32.Peng W.W.*, Xia X.L.*, Yi M., Huang, G. Zhang Z.G., Iannetti G.D., Hu L. (2018) Brain oscillations reflecting pain-related behavior in freely-moving rats. PAIN 159(1): 106–118. (5-year-IF = 8.09; SCI -JCR-Q1) <a href='https://journals.lww.com/pain/fulltext/2018/01000/brain_oscillations_reflecting_pain_related.15.aspx'> <FaLink className='icon' /></a></p>
+          <p>33.张会娟, 彭微微#, 周丽丽, 吕雪靖, 魏华, 胡理# (2018) 安慰剂效应的心理机制及临床应用, 中国临床心理学杂志 26(3),467-471,453. <a href='http://ir.psych.ac.cn/handle/311026/27059'> <FaLink className='icon' /></a></p>
           
           <h2><FaCalendarCheck className='icon' /> 2017</h2>
           <hr></hr>
           <br></br>
 
-          <p>34.Zhao K., Tang Z.Y., Guo Y.F., Peng W.W.#, Hu L.# (2017) Analgesia induced by self-initiated electrotactile sensation is mediated by top-down modulations. Psychophysiology 54(6):848-856. (5-year-IF = 4.72; SCI/SSCI -JCR-Q1) <a href=''> <FaLink className='icon' /></a></p>
-          <p>35.Peng W.W.*, Guo X.L.*, Jin Q.Q., Wei H., Xia X. L., Zhang, Y., Huang, P. C., Wang, W. C., Li, S.L., Wang, J. S., Chen, J, Hu L. (2017) Biological mechanism of post-herpetic neuralgia: evidence from multiple patho-psychophysiological measures. European Journal of Pain 21(5):827-842. (5-year-IF = 4.17; SCI -JCR-Q2) <a href=''> <FaLink className='icon' /></a></p>
-          <p>36.王小玲, 唐丹丹, 靳晴晴, 彭微微#, 胡理 (2017) 疼痛恐惧的神经机制及其消退. 心理科学进展 25(10): 1758-1768. <a href=''> <FaLink className='icon' /></a></p>
-          <p>37.汤征宇, 汪汇泉, 夏晓磊, 汤艺, 彭微微#, 胡理 (2017) 经皮神经电刺激的镇痛机制及其临床应用. 生理学报 2017(3):1-22. <a href=''> <FaLink className='icon' /></a></p>
+          <p>34.Zhao K., Tang Z.Y., Guo Y.F., Peng W.W.#, Hu L.# (2017) Analgesia induced by self-initiated electrotactile sensation is mediated by top-down modulations. Psychophysiology 54(6):848-856. (5-year-IF = 4.72; SCI/SSCI -JCR-Q1) <a href='https://onlinelibrary.wiley.com/doi/10.1111/psyp.12839'> <FaLink className='icon' /></a></p>
+          <p>35.Peng W.W.*, Guo X.L.*, Jin Q.Q., Wei H., Xia X. L., Zhang, Y., Huang, P. C., Wang, W. C., Li, S.L., Wang, J. S., Chen, J, Hu L. (2017) Biological mechanism of post-herpetic neuralgia: evidence from multiple patho-psychophysiological measures. European Journal of Pain 21(5):827-842. (5-year-IF = 4.17; SCI -JCR-Q2) <a href='https://onlinelibrary.wiley.com/doi/10.1002/ejp.985'> <FaLink className='icon' /></a></p>
+          <p>36.王小玲, 唐丹丹, 靳晴晴, 彭微微#, 胡理 (2017) 疼痛恐惧的神经机制及其消退. 心理科学进展 25(10): 1758-1768. <a href='https://journal.psych.ac.cn/xlkxjz/CN/10.3724/SP.J.1042.2016.01065'> <FaLink className='icon' /></a></p>
+          <p>37.汤征宇, 汪汇泉, 夏晓磊, 汤艺, 彭微微#, 胡理 (2017) 经皮神经电刺激的镇痛机制及其临床应用. 生理学报 2017(3):1-22. <a href='http://ir.psych.ac.cn/handle/311026/27059'> <FaLink className='icon' /></a></p>
 
           <h2><FaCalendarCheck className='icon' /> 2012-2016</h2>
           
           <hr></hr>
           <br></br>
 
-          <p>38.Xia X.L.*, Peng W.W.*, Iannetti G., Hu L. (2016) Laser-evoked cortical responses in freely-moving rats reflect the activation of C-fibre afferent pathways. NeuroImage 128: 209-17. (5-year-IF = 8.01; SCI -JCR-Q1)</p>
-          <p>39.Peng W.W. & Tang D.D. (2016) Pain Related Cortical Oscillations: Methodological Advances and Potential Applications. Front. Comput. Neurosci 10:9. (5-year-IF =3.47，SCI-JCR-Q2)</p>
-          <p>40.汤艺，唐丹丹，彭微微#，胡理 (2016) 以痛镇痛：条件性疼痛调节 科学通报 61(6):642-653.</p>
-          <p>41.Peng W.W., Babiloni C., Mao Y.H., Hu Y. (2015) Subjective pain perception mediated by alpha rhythms. Biological Psychology 109:141-50. (5-year-IF = 3.97，SCI/SSCI -JCR-Q1)</p>
-          <p>42.Peng W.W., Hu Y., Mao Y.H., Babiloni C. (2015) Widespread cortical alpha ERD companying visual oddball target stimuli is frequency but non-modality specific. Behavioural Brain Research 295:71-77. (5-year-IF = 3.48; SCI -JCR-Q2)</p>
-          <p>43.Jia H.B.*, Peng W.W.*, Hu L. (2015) A novel approach to identify time-frequency oscillatory features in electrocortical signals Journal of Neuroscience Methods 253:18-27. (5-year-IF = 3.20，SCI-JCR-Q3)</p>
-          <p>44.Peng W.W.*, Hu L.*, Zhang ZG, Hu Y. (2014) Changes of spontaneous oscillatory activity to tonic heat pain. Plos One 9:e91052. (5-year-IF = 4.07; SCI -JCR-Q1)</p>
-          <p>45.Hu L.*, Peng W.W.*, Valentini E., Hu Y. (2013) Functional features of nociceptive-induced suppression of alpha band electroencephalographic oscillations. The Journal of Pain 14:89-99. (5-year-IF =7.04; SCI/-JCR-Q1)</p>
-          <p>46.Peng W.W.*, Hu L.*, Zhang Z.G., Hu Y. (2012) Causality in the association between P300 and alpha event-related desynchronization. Plos One 7: e34163. (5-year-IF =4.07; SCI -JCR-Q1) </p>
+          <p>38.Xia X.L.*, Peng W.W.*, Iannetti G., Hu L. (2016) Laser-evoked cortical responses in freely-moving rats reflect the activation of C-fibre afferent pathways. NeuroImage 128: 209-17. (5-year-IF = 8.01; SCI -JCR-Q1) <a href='https://www.sciencedirect.com/science/article/pii/S1053811915011556?via%3Dihub'> <FaLink className='icon' /></a></p>
+          <p>39.Peng W.W. & Tang D.D. (2016) Pain Related Cortical Oscillations: Methodological Advances and Potential Applications. Front. Comput. Neurosci 10:9. (5-year-IF =3.47，SCI-JCR-Q2) <a href='https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2016.00009/full'> <FaLink className='icon' /></a></p>
+          <p>40.汤艺，唐丹丹，彭微微#，胡理 (2016) 以痛镇痛：条件性疼痛调节 科学通报 61(6):642-653. <a href=''> <FaLink className='icon' /></a></p>
+          <p>41.Peng W.W., Babiloni C., Mao Y.H., Hu Y. (2015) Subjective pain perception mediated by alpha rhythms. Biological Psychology 109:141-50. (5-year-IF = 3.97，SCI/SSCI -JCR-Q1) <a href='https://www.sciencedirect.com/science/article/abs/pii/S0301051115300016?via%3Dihub'> <FaLink className='icon' /></a></p>
+          <p>42.Peng W.W., Hu Y., Mao Y.H., Babiloni C. (2015) Widespread cortical alpha ERD companying visual oddball target stimuli is frequency but non-modality specific. Behavioural Brain Research 295:71-77. (5-year-IF = 3.48; SCI -JCR-Q2) <a href='https://www.sciencedirect.com/science/article/abs/pii/S016643281500306X?via%3Dihub'> <FaLink className='icon' /></a></p>
+          <p>43.Jia H.B.*, Peng W.W.*, Hu L. (2015) A novel approach to identify time-frequency oscillatory features in electrocortical signals Journal of Neuroscience Methods 253:18-27. (5-year-IF = 3.20，SCI-JCR-Q3) <a href='https://www.sciencedirect.com/science/article/abs/pii/S0165027015002174?via%3Dihub'> <FaLink className='icon' /></a></p>
+          <p>44.Peng W.W.*, Hu L.*, Zhang ZG, Hu Y. (2014) Changes of spontaneous oscillatory activity to tonic heat pain. Plos One 9:e91052. (5-year-IF = 4.07; SCI -JCR-Q1) <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0091052'> <FaLink className='icon' /></a></p>
+          <p>45.Hu L.*, Peng W.W.*, Valentini E., Hu Y. (2013) Functional features of nociceptive-induced suppression of alpha band electroencephalographic oscillations. The Journal of Pain 14:89-99. (5-year-IF =7.04; SCI/-JCR-Q1) <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0091052'> <FaLink className='icon' /></a></p>
+          <p>46.Peng W.W.*, Hu L.*, Zhang Z.G., Hu Y. (2012) Causality in the association between P300 and alpha event-related desynchronization. Plos One 7: e34163. (5-year-IF =4.07; SCI -JCR-Q1) <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0034163'> <FaLink className='icon' /></a></p>
         </div>
 
         <Footer />

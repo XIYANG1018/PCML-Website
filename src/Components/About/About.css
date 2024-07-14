@@ -6,11 +6,11 @@
     width: 90%;
 }
 .about-left{
-    flex-basis: 40%;
+    flex-basis: 68%;
     position: relative;
 }
 .about-right{
-    flex-basis: 56%;
+    flex-basis: 32%;
 }
 .about-img{
     width: 70%;
@@ -25,9 +25,10 @@
     cursor: pointer;
 }
 .about h3{
-    font-weight: 600;
     font-weight: 16px;
     color: #10245c;
+    margin-top: 20px;
+
 }
 .about h2{
    font-size: 35px;
@@ -44,14 +45,16 @@
 @media (max-width: 800px){
     .about{
         flex-direction: column;
+        justify-content: center;
     }
 
     .about-img {
         width: 100%;
+        padding: 30px;
     }
     .about-left{
         flex-basis: 100%;
-        margin: 20px;
+        
         order: 1;
     }
     .about-right{

@@ -18,6 +18,7 @@ import LeaderScreen from './screens/LeaderScreen.jsx'
 import TeamScreen from './screens/TeamScreen.jsx'
 import HomeScreen from './screens/HomeScreen.jsx'
 import PublicationScreen from './screens/PublicationScreen.jsx'
+import XiaoyunScren from './screens/XiaoyunScreen.jsx'
 
 
 const router = createBrowserRouter(
@@ -30,6 +31,7 @@ const router = createBrowserRouter(
       <Route path='/team' element={<TeamScreen />} />
       <Route path='/contact' element={<ContactScreen />} />
       <Route path='/weiweipeng' element={<LeaderScreen />} />
+      <Route path='/xiaoyunli' element={<XiaoyunScren />} />
     </Route>
     
   )

@@ -20,8 +20,7 @@
     display: flex;
     flex-direction: column; /* 垂直方向排列子元素 */
     align-items: center; /* 子元素居中对齐 */
-    
-
+    margin-right: 60px;
 }
 .leader-img{
     width: 70%;
@@ -56,6 +55,15 @@
     text-align: justify;
 }
 
+.leader-right a:hover{
+    color: #10245c;
+}
+
+.leader-right h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .leader-left p {
     color: #676767;
     margin-bottom: 10px;
@@ -69,15 +77,41 @@
 .members-container{
     margin: 60px auto;
     width: 90%;
+    
 }
 
 .members {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
+
+.member {
+    margin: 20px;
+    padding: 20px;
+    width: calc(33.33% - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; 
+
+}
+
+
+.member-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1; /* 使内容容器填充整个高度 */
+    text-align: center;
+
+}
+
 .member-img{
-    width: 100%; /* 根据需要调整图片的宽度 */
+    width: 70%; /* 根据需要调整图片的宽度 */
     border-radius: 50%;
     margin-bottom: 30px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -88,21 +122,53 @@
     text-align: center;
 }
 
-.member {
-    margin: 0 20px;
-    padding: 40px;
-    width: 25%;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+.member p {
+    font-size: 15px;
 
 }
 
-.member p {
-    
-    text-align: center;
+.postdoc-container{
+    margin: 60px auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+.postdoc {
+    margin: 20px;
+    padding: 20px;
+    width: calc(50% - 40px);
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box; 
+}
+
+.postdoc img{
+    width: 50%; /* 根据需要调整图片的宽度 */
+    border-radius: 50%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.postdoc h3 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #10245c;
+}
+
+.postdoc h2 {
+    color: #10245c;
+    margin-bottom: 10px;
+
 }
 
 
@@ -127,7 +193,8 @@
     }
     .leader-right{
         flex-basis: 100%;
-        justify-content: center;
+        justify-content: center;    
+        margin-right: 0;
     }
 
         
@@ -148,10 +215,36 @@
 
     }
 
+    .leader-left .btn {
+        align-items: center;
+        margin-left: 30%;
+    }
+
     .member {
-        display: flex;
+        width: calc(100% - 40px); /* 两列布局，考虑边距 */
+    }
+
+    .postdoc {
+        width: 100%; /* 占满整行 */
+        margin: 20px 0; /* 调整上下边距，去掉左右边距 */
+    }
+
+    .postdoc img {
+        width: 70%; /* 在移动设备上可以稍微放大图片 */
+        max-width: 250px; /* 增加最大宽度 */
+        align-items: center;
+    }
+
+    .postdoc h3 {
+        text-align: center;
+    }
+
+    .postdoc h2 {
+        text-align: center;
+    }
+
+    .postdoc {
         justify-content: center;
-        width: 80%;
     }
 
 

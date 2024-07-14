@@ -24,6 +24,7 @@ const LeaderScreen = () => {
             <p>
             <FaEnvelope className='icon'/> www.peng0923@gmail.com
             </p>
+            <h3>博士/教授/博士生导师</h3>
         
           </div>
           <div className="leader-left">
@@ -33,7 +34,7 @@ const LeaderScreen = () => {
             <h3>研究方向</h3>
             <hr></hr>
             <br></br>
-            <p>结合心理物理测量、脑电和功能磁共振技术，探索人类疼痛和共情的认知神经机制，在此基础上结合无创神经调控技术和心理行为干预建立面向疼痛缓解的调控系统和方法。</p>
+            <p>疼痛和共情的认知神经机制、疼痛评估方法的建立、心理物理镇痛策略开发</p>
 
             <h3>教育/工作经历</h3>
             <hr></hr>
@@ -65,17 +66,17 @@ const LeaderScreen = () => {
             <p><strong>国家自然科学基金面上项目 (32271105), 主持</strong></p>
             <p><FaArrowCircleRight className='icon'/>人际互动视角下疼痛共情的脑间同步机制及调控研究</p>
             <p><FaArrowCircleRight className='icon'/> 起止时间：2023/01—2026/12</p>
-            <p><FaArrowCircleRight className='icon'/> 资金：58万元</p>
+
 
             <p><strong>科技创新2030 -“脑科学与类脑研究”重大项目青年科学家项目, 参与</strong></p>
             <p><FaArrowCircleRight className='icon'/>人际互动视角下疼痛共情的脑间同步机制及调控研究</p>
             <p><FaArrowCircleRight className='icon'/> 起止时间：2023/01—2026/12</p>
-            <p><FaArrowCircleRight className='icon'/> 资金：58万元</p>
+
 
             <p><strong>深圳市基础研究面上项目(JCYJ20230808105805012), 主持</strong></p>
             <p><FaArrowCircleRight className='icon'/>面向疼痛缓解的神经反馈系统关键技术研究</p>
             <p><FaArrowCircleRight className='icon'/> 起止时间：2023/12—2026/11</p>
-            <p><FaArrowCircleRight className='icon'/> 资金：30万元</p>
+
 
 
 
@@ -87,28 +88,26 @@ const LeaderScreen = () => {
             <p><strong>国家自然科学基金面上项目 (31871127)，主持</strong></p>
             <p><FaArrowCircleRight className='icon'/>自发/诱发疼痛中的神经振荡同步性及其对疼痛的调控机制研究</p>
             <p><FaArrowCircleRight className='icon'/> 起止时间：2019/01—2022/12</p>
-            <p><FaArrowCircleRight className='icon'/> 资金：60万元</p>
+
 
             
             <p><strong>科技创新2030 -“脑科学与类脑研究”重大项目青年科学家项目, 参与</strong></p>
             <p><FaArrowCircleRight className='icon'/>疼痛相关的神经振荡特征提取及其调控</p>
             <p><FaArrowCircleRight className='icon'/> 起止时间：2016/01—2018/12</p>
-            <p><FaArrowCircleRight className='icon'/> 资金：20万元</p>
+
 
             <p><strong>国家自然科学基金青年项目 (31500921)，主持</strong></p>
             <p><FaArrowCircleRight className='icon'/>疼痛敏感性个体差异的神经机制研究</p>
-            <p><FaArrowCircleRight className='icon'/> 起止时间：2018/05—2021/03</p>
-            <p><FaArrowCircleRight className='icon'/> 资金：30万元</p>
 深
             <p><strong>广东省普通高校特色创新类项目(2019KTSCX149)，主持</strong></p>
             <p><FaArrowCircleRight className='icon'/>自闭症谱系障碍个体对自身和他人疼痛感知的异常及其认知神经机制研究</p>
             <p><FaArrowCircleRight className='icon'/> 起止时间：2020/05—2022/04</p>
-            <p><FaArrowCircleRight className='icon'/> 资金：10万元</p>
+
 
             <p><strong>深圳市科技计划基础研究自由探索项目(JCYJ20170818093231953) ，主持</strong></p>
             <p><FaArrowCircleRight className='icon'/>tDCS缓解疼痛的方案优化及其认知神经机制研究</p>
             <p><FaArrowCircleRight className='icon'/> 起止时间：2018/05—2021/03</p>
-            <p><FaArrowCircleRight className='icon'/> 资金：30万元</p>
+
 
             <h3>科研论文发表</h3>
             <p><em>*：并列第一；#：通讯作者</em></p>

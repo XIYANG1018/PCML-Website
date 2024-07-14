@@ -98,7 +98,7 @@ const LeaderScreen = () => {
 
             <p><strong>国家自然科学基金青年项目 (31500921)，主持</strong></p>
             <p><FaArrowCircleRight className='icon'/>疼痛敏感性个体差异的神经机制研究</p>
-深
+
             <p><strong>广东省普通高校特色创新类项目(2019KTSCX149)，主持</strong></p>
             <p><FaArrowCircleRight className='icon'/>自闭症谱系障碍个体对自身和他人疼痛感知的异常及其认知神经机制研究</p>
             <p><FaArrowCircleRight className='icon'/> 起止时间：2020/05—2022/04</p>

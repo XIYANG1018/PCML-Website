@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar/Navbar'
 
 import Footer from '../Components/Footer/Footer'
 import peopleSample from '../assets/people-sample.jpg'
+import xiaoyun from '../assets/xiaoyun.jpeg'
 import { FaEnvelope, FaIdBadge, FaArrowCircleRight} from 'react-icons/fa'
 
 
@@ -17,7 +18,7 @@ const XiaoyunScreen = () => {
      <div className='leader'>
           <div className="leader-right">
 
-            <img src={peopleSample} alt="" className='leader-img'/>
+            <img src={xiaoyun} alt="" className='leader-img'/>
             <a href='https://orcid.org/0000-0002-4600-0036'>
             </a>
             <p>

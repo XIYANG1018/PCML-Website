@@ -93,15 +93,12 @@
 }
 @media (max-width: 600px){
     
-    .slider p{
-        font-size: 12px;
-    }
     .slide p {
         font-size: 15px;
     }
     .slide h3 {
         text-align: left;
-        font-size: 15px;
+        font-size: 20px;
         
     }
 }

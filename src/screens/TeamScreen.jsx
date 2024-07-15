@@ -244,13 +244,13 @@ const TeamScreen = () => {
             <div className='member'>
               <img src={people16} alt="" className='member-img'/>
               <h3>关颖琳</h3>
-              <p>硕士研究生</p>
+              <p>本科</p>
             </div>
 
             <div className='member'>
               <img src={people17} alt="" className='member-img'/>
               <h3>付金龙</h3>
-              <p>硕士研究生</p>
+              <p>本科</p>
             </div>
 
           </div>
@@ -263,7 +263,7 @@ const TeamScreen = () => {
           <div className='members'>
           <div className='member'>
             <div className='member-content'>
-              <img src={people12} alt="" className='member-img'/>
+              
               <h3>林臣南</h3>
               <p>2021级硕士研究生</p>
               <p>研究生国家奖学金获得者</p>
@@ -274,7 +274,7 @@ const TeamScreen = () => {
 
             <div className='member'>
             <div className='member-content'>
-              <img src={peopleSample} alt="" className='member-img'/>
+              
               <h3>郑倩倩</h3>
               <p> 2021级硕士研究生</p>
               <p>深圳大学优秀硕士毕业生</p>
@@ -282,7 +282,7 @@ const TeamScreen = () => {
 
             <div className='member'>
             <div className='member-content'>
-              <img src={people9} alt="" className='member-img'/>
+              
               <h3>金云馨</h3>
               <p>2021级硕士研究生</p>
             </div></div>
@@ -290,7 +290,7 @@ const TeamScreen = () => {
             
             <div className='member'>
             <div className='member-content'>
-              <img src={people11} alt="" className='member-img'/>
+              
               <h3>郭泽昆</h3>
               <p>2021级硕士研究生</p>
             </div></div>
@@ -298,7 +298,7 @@ const TeamScreen = () => {
             
             <div className='member'>
             <div className='member-content'>
-              <img src={people5} alt="" className='member-img'/>
+              
               <h3>卓诗维</h3>
               <p>2020级硕士研究生</p>
               <p>研究生国家奖学金获得者</p>
@@ -308,7 +308,7 @@ const TeamScreen = () => {
 
             <div className='member'>
             <div className='member-content'>
-              <img src={people6} alt="" className='member-img'/>
+              
               <h3>范俊淞
               </h3>
               <p>2020级硕士研究生</p>
@@ -316,14 +316,14 @@ const TeamScreen = () => {
 
             <div className='member'>
             <div className='member-content'>
-              <img src={people7} alt="" className='member-img'/>
+              
               <h3>吕笑寒</h3>
               <p>2020级硕士研究生</p>
             </div></div>
 
             <div className='member'>
             <div className='member-content'>
-              <img src={people8} alt="" className='member-img'/>
+              
               <h3>刘周安</h3>
               <p>2020级硕士研究生</p>
               <p>深圳大学百篇优秀硕士毕业论文获得者</p>
@@ -331,7 +331,7 @@ const TeamScreen = () => {
 
             <div className='member'>
             <div className='member-content'>
-              <img src={peopleSample} alt="" className='member-img'/>
+              
               <h3>张文芸</h3>
               <p>2019级硕士研究生</p>
               <p>深圳大学优秀硕士毕业生</p>
@@ -340,7 +340,7 @@ const TeamScreen = () => {
 
             <div className='member'>
             <div className='member-content'>
-              <img src={peopleSample} alt="" className='member-img'/>
+              
               <h3>姚俊杰</h3>
               <p>2019级硕士研究生</p>
               <p>研究生国家奖学金获得者</p>
@@ -350,14 +350,14 @@ const TeamScreen = () => {
 
             <div className='member'>
             <div className='member-content'>
-              <img src={peopleSample} alt="" className='member-img'/>
+              
               <h3>湛毅林</h3>
               <p>2019级硕士研究生</p>
             </div></div>
 
             <div className='member'>
             <div className='member-content'>
-              <img src={peopleSample} alt="" className='member-img'/>
+              
               <h3>叶倩</h3>
               <p>2018级硕士研究生</p>
               <p>研究生国家奖学金获得者</p>
@@ -366,7 +366,7 @@ const TeamScreen = () => {
 
             <div className='member'>
             <div className='member-content'>
-              <img src={peopleSample} alt="" className='member-img'/>
+              
               <h3>姚漫霖</h3>
               <p>2017级硕士研究生</p>
               <p>深圳大学优秀硕士毕业生</p>
@@ -374,7 +374,7 @@ const TeamScreen = () => {
 
             <div className='member'>
             <div className='member-content'>
-              <img src={peopleSample} alt="" className='member-img'/>
+              
               <h3>刘洋</h3>
               <p>2017级硕士研究生</p>
              

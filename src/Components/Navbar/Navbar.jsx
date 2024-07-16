@@ -35,11 +35,11 @@ const Navbar = () => {
       
       <ul className={mobileMenu? '':'hide-mobile-menu'}>
         
-        <li><Link to='/about' onClick={handleOnClick('/')}>关于我们</Link></li>
-        <li><Link to='/research' onClick={handleOnClick('/research')}>科研成果</Link></li>
-        <li><Link to='/publication' onClick={handleOnClick('/publication')}>研究发表</Link></li>
-        <li><Link to='/team' onClick={handleOnClick('/team')}>团队成员</Link></li>
-        <li><Link to='/contact' onClick={handleOnClick('/contact')} className='btn'>联系合作</Link></li>
+        <li><Link to='/about' onClick={handleOnClick('/')} >关于我们</Link></li>
+        <li><Link to='/research' onClick={handleOnClick('/research')} >科研成果</Link></li>
+        <li><Link to='/publication' onClick={handleOnClick('/publication')} >研究发表</Link></li>
+        <li><Link to='/team' onClick={handleOnClick('/team')} >团队成员</Link></li>
+        <li><Link to='/contact' onClick={handleOnClick('/contact')} >联系合作</Link></li>
       </ul>
       <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>

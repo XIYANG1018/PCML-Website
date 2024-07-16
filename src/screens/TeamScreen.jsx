@@ -17,8 +17,13 @@ import people14 from '../assets/14.jpg'
 import people15 from '../assets/15.jpg'
 import people16 from '../assets/16.jpg'
 import people17 from '../assets/17.jpg'
+import lijia from '../assets/lijia.jpg'
 import xia from '../assets/xia.jpeg'
 import xiaoyun from '../assets/xiaoyun.jpeg'
+import yangxilin from '../assets/yangxilin.jpg'
+import zhaoyuxin from '../assets/zhaoyuxin.jpg'
+import linxinxin from '../assets/linxinxin.jpg'
+import penghuane from '../assets/penghuane.jpg'
 import weng from '../assets/weng.jpeg'
 
 import './TeamScreen.css'
@@ -173,13 +178,13 @@ const TeamScreen = () => {
               <p>2021级博士研究生</p>
             </div>
           <div className='member'>
-              <img src={people3} alt="" className='member-img'/>
+              <img src={lijia} alt="" className='member-img'/>
               <h3>李嘉</h3>
               <p>2022级博士研究生</p>
             </div>
 
             <div className='member'>
-              <img src={people4} alt="" className='member-img'/>
+              <img src={linxinxin} alt="" className='member-img'/>
               <h3>林鑫鑫</h3>
               <p>2023级博士研究生</p>
               <p>研究生国家奖学金获得者</p>
@@ -215,21 +220,21 @@ const TeamScreen = () => {
             </div>
 
             <div className='member'>
-              <img src={peopleSample} alt="" className='member-img'/>
+              <img src={yangxilin} alt="" className='member-img'/>
               <h3>杨希琳</h3>
               <p>2023级硕士研究生</p>
             </div>
 
             
             <div className='member'>
-              <img src={peopleSample} alt="" className='member-img'/>
+              <img src={penghuane} alt="" className='member-img'/>
               <h3>彭焕娥</h3>
               <p>2023级硕士研究生</p>
             </div>
 
             
             <div className='member'>
-              <img src={peopleSample} alt="" className='member-img'/>
+              <img src={zhaoyuxin} alt="" className='member-img'/>
               <h3>赵宇晰</h3>
               <p>2023级硕士研究生</p>
             </div>
@@ -244,20 +249,16 @@ const TeamScreen = () => {
             <div className='member'>
               <img src={people16} alt="" className='member-img'/>
               <h3>关颖琳</h3>
-              <p>本科</p>
+              <p>2024级硕士研究生</p>
             </div>
 
-            <div className='member'>
-              <img src={people17} alt="" className='member-img'/>
-              <h3>付金龙</h3>
-              <p>本科</p>
-            </div>
+          
 
           </div>
         </div>
        
 
-        <Title subTitle='graduates' title='已毕业学生'/>
+        <Title subTitle='Graduated Master' title='已毕业硕士研究生'/>
 
         <div className='members-container'>
           <div className='members'>
@@ -329,6 +330,7 @@ const TeamScreen = () => {
               <p>深圳大学百篇优秀硕士毕业论文获得者</p>
             </div></div>
 
+
             <div className='member'>
             <div className='member-content'>
               
@@ -355,6 +357,7 @@ const TeamScreen = () => {
               <p>2019级硕士研究生</p>
             </div></div>
 
+
             <div className='member'>
             <div className='member-content'>
               
@@ -363,6 +366,7 @@ const TeamScreen = () => {
               <p>研究生国家奖学金获得者</p>
               <p>深圳大学优秀硕士毕业生</p>
             </div></div>
+
 
             <div className='member'>
             <div className='member-content'>
@@ -379,6 +383,198 @@ const TeamScreen = () => {
               <p>2017级硕士研究生</p>
              
             </div></div>
+
+
+          </div>
+        </div>
+
+        <Title subTitle='Graduated Bachelor' title='已毕业本科生'/>
+        
+        <div className='members-container'>
+          <div className='members'>
+                
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>付金龙</h3>
+              <p>2020级本科生 心理学</p>
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>彭骏驰 </h3>
+              <p>2020级本科生 心理学（师范）</p>
+             
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>陈明晖 </h3>
+              <p>2020级本科生 心理学（师范）</p>
+             
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>谌粤龙 </h3>
+              <p>2020级本科生 心理学（师范）</p>
+              <p>深圳大学百篇优秀本科毕业论文获得者</p>
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>关颖琳 </h3>
+              <p>2020级本科生 心理学</p>
+              <p>深圳大学百篇优秀本科毕业论文获得者</p>
+            </div></div>
+
+
+            
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>王榕</h3>
+              <p>2019级本科生 心理学</p>
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>王岩子</h3>
+              <p>2019级本科生 心理学</p>
+              <p>深圳大学百篇优秀本科毕业论文获得者</p>
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>王婷</h3>
+              <p>2019级本科生 心理学</p>
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>潘海峰</h3>
+              <p>2019级本科生 心理学</p>
+            </div></div>
+
+            
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>吴悠</h3>
+              <p>2018级本科生 艺术设计学</p>
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>蔡志威</h3>
+              <p>2018级本科生 金融学</p>
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>许嘉敏</h3>
+              <p>2018级本科生 哲学</p>
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>陈海澜</h3>
+              <p>2018级本科生 市场营销</p>
+            </div></div>
+
+            
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>许嘉益</h3>
+              <p>2018级本科生 音乐表演</p>
+            </div></div>
+
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>郭泽昆</h3>
+              <p>2017级本科生 应用心理学</p>
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>蔡明南</h3>
+              <p>2017级本科生 应用心理学</p>
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>陈惟楚</h3>
+              <p>2017级本科生 应用心理学</p>
+              <p>深圳大学百篇优秀本科毕业论文获得者</p>
+            </div></div>
+
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>侯依然</h3>
+              <p>2017级本科生 应用心理学</p>
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>桑晓慧 </h3>
+              <p>2016级本科生 应用心理学</p>
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>钟采芸</h3>
+              <p>2016级本科生 应用心理学</p>
+            </div></div>
+
+            
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>毛静轩</h3>
+              <p>2015级本科生 美术学</p>
+            </div></div>
+
+            
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>黄寂</h3>
+              <p>2015级本科生 光电信息科学与工程</p>
+            </div></div>
+                        
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>黄晓彤</h3>
+              <p>2015级本科生 社会工作01</p>
+            </div></div>
+
+            <div className='member'>
+            <div className='member-content'>
+              
+              <h3>吕志颖</h3>
+              <p>2015级本科生 应用心理学</p>
+            </div></div>
+
 
           </div>
         </div>

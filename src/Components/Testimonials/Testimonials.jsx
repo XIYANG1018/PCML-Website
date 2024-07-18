@@ -37,7 +37,7 @@ const handleOnClick = (path) => {
             <a href='https://www.jpain.org/article/S1526-5900(23)00366-8/fulltext'><h3>Neurocognitive Mechanisms Underlying Attention Bias Towards Pain: Evidence From a Drift-Diffusion Model and Event-Related Potentials</h3><h3>疼痛注意偏向的认知神经机制：基于漂移扩散模型和事件相关电位的证据</h3></a>
             
             <div>
-                <img src={project1_2}></img>
+
                 <img src={project1}></img>
                 <img src={project1_1}></img>
             </div>
